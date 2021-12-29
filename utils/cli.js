@@ -27,8 +27,8 @@ const flags = {
 	type: {
 		type: `string`,
 		alias: `t`,
-		default: "text",
-		desc: `convert any file`
+		default: "txt",
+		desc: `convert file to txt or json`
 	}
 };
 
@@ -37,7 +37,7 @@ const commands = {
 };
 
 const helpText = meowHelp({
-	name: `hello`,
+	name: `./index.js`,
 	flags,
 	commands
 });
