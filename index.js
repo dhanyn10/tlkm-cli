@@ -25,13 +25,13 @@ const { clear, debug } = flags;
 	if(flags.type == "json") {
 		const dir = fs.readFileSync(input[0])
 		const jsondata = JSON.parse(dir)
-		fs.writeFileSync(`./test/json/${d}.json`, JSON.stringify(jsondata))
+		fs.writeFileSync(`./tests/json/${d}.json`, JSON.stringify(jsondata))
 		console.log(`your file saved to ./test/json/${d}.json`)
 	}
 	else
 	{
 		const dir = fs.readFileSync(input[0], 'utf-8')
-		fs.writeFileSync(`./test/txt/${d}.txt`, dir)
+		fs.writeFileSync(`./tests/txt/${d}.txt`, dir)
 		console.log(`your file saved to ./test/txt/${d}.txt`)
 	}
 
