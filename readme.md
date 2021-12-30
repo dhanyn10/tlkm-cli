@@ -1,6 +1,6 @@
 # TLKM CLI MEOW
 
-## COMMAND YANG LEBIH LENGKAP BISA KE REPOSITORY tlkm-cli-commander
+## COMMAND YANG LEBIH LENGKAP BISA KE REPOSITORY [tlkm-cli-commander](https://github.com/dhanyn10/tlkm-cli-commander)
 
 ### Cara menggunakan
 konversi ke json
